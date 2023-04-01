@@ -1,18 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { YearsectionComponent } from './yearsection/yearsection.component';
+import { MapsectionComponent } from './mapsection/mapsection.component';
+import { CriminalactivityComponent } from './criminalactivity/criminalactivity.component';
+import { InterrogationsectionComponent } from './interrogationsection/interrogationsection.component';
+import { ExibitsectionComponent } from './exibitsection/exibitsection.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+  
+    SidebarComponent,
+    YearsectionComponent,
+    MapsectionComponent,
+    CriminalactivityComponent,
+    InterrogationsectionComponent,
+    ExibitsectionComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    NgbModule,
   ],
-  providers: [],
+  providers: [], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }

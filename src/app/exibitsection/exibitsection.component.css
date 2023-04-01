@@ -1,0 +1,146 @@
+
+.parent {
+    display: flex;
+    /* flex-direction: column; */
+    display: block;
+    border: 2px solid #FAFAFAFA;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    margin-left: .1rem;
+    margin-top: 2rem;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 85, 85);
+    border-bottom: 3px solid rgb(235, 85, 85);
+    margin-top: 2rem;   
+    text-transform: uppercase;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3px;
+    margin-left: 1rem;
+    background-color: rgb(231, 221, 240);
+    border: 1px solid rgb(231, 221, 240);
+    color: #8574F1;
+    font-size: 1.5rem;
+}
+.b2{
+    border-radius: 3px;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid rgb(231, 221, 240);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3px;
+    margin-left: 1rem;
+    background-color: #8574F1;
+}
+
+img{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.kano{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.kano-btn{
+    background-color: #8574F1;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid #8574F1;
+    border-radius: 4px;
+}
+.text{
+    font-size: 1.1rem;
+    font-size: 600;
+    margin-left: .8rem;
+}
+
+.uploaded{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+.up-by{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.timestamp{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    width: 20rem;
+    height: 3rem;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #FF6C88;
+    background-color: #FF6C88;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media(max-width:720px){
+
+    .parent{
+        width: 220%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .btns{
+        margin-top: 2rem;
+        display: flex;
+    }
+  .b1,.b2{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .watch{
+    margin: 1rem auto;
+    font-size: 2.3rem;
+    height: 5rem;
+    text-align: center;
+  }
+  .kano-btn{
+    font-size: 2rem;
+    width: 20rem;
+  }
+
+img{
+    height: 60vh;
+    margin-top: 2rem;
+}
+  .text{
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  .uploaded{
+    margin-top: 2rem;
+  }
+  .up-by,.timestamp{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,222 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 85, 85);
+    border-bottom: 3px solid rgb(235, 85, 85);
+    margin-top: 2rem;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.dashboard button{
+    width:18rem;
+    height: 6rem;
+}
+.btn-bur{
+    background-color: #F5E6B0;
+    border: 1px solid #F5E6B0;
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform:uppercase;
+}
+.btn-sh{
+    background-color: #E2E1FF;
+    border: 1px solid #E2E1FF;
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform:uppercase;
+}
+.btn-ar{
+    background-color: #FEA8A8;
+    border: 1px solid #FEA8A8;
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform:uppercase;
+}
+.btn-th{
+    background-color: #B9F3FF;
+    border: 1px solid #B9F3FF;
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform:uppercase;
+}
+.btn-ot{
+
+    background-color: rgb(86, 86, 170);
+    border: 1px solid rgb(86, 86, 170);
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-transform:uppercase;
+}
+.btns{
+    display: flex;
+    justify-content: start;
+    margin-left: 1rem;
+    gap: 1rem;
+    
+}
+.b1{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(235, 85, 85);
+    border: 1px solid rgb(235, 85, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  monospace;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.b2{
+    border-radius: 5px;
+    width: 7rem;
+    height: 3rem;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  monospace;
+    font-size: 1.5rem;
+}
+.parent {
+    display: flex;
+    /* flex-direction: column; */
+    display: block;
+    border: 2px solid #FAFAFAFA;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-left: .1rem;
+  }
+.child{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 4rem;
+    gap:2rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+.year-btn{
+    background-color:rgb(245, 59, 59); 
+    font-size: 2rem;
+    width: 14rem;
+    height: 4rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  monospace;
+}
+.crime{
+    color: rgb(245, 59, 59);
+    border-bottom: 2px solid rgb(245, 59, 59);
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    font-family:  monospace;
+}
+
+.region{
+    font-family:  monospace;
+    color: rgb(245, 59, 59);
+    border-bottom: 2px solid rgb(245, 59, 59);
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+/* Media Queries */
+
+@media(max-width:720px) {
+    
+    .parent{
+        width: 220%;
+        display: block;
+    }
+    .year-btn{
+        font-size: 3rem;
+        width: 18rem;
+        height: 5rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .crime{
+        width: 18rem;
+        height: 3rem;
+        font-size: 2.5rem;
+        padding-bottom: 4rem;
+    }
+    
+    .region{
+     
+        color: rgb(245, 59, 59);
+        border-bottom: 2px solid rgb(245, 59, 59);
+        width: 18rem;
+        height: 3rem;
+        font-size: 2.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: start;
+        margin-left: 1rem;
+        gap: 4rem;
+        
+    }
+    .b1{
+        width: 13rem;
+        height: 4rem;
+        background-color: rgb(235, 85, 85);
+        border: 1px solid rgb(235, 85, 85);
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .b2{
+        width: 13rem;
+        height: 4rem;
+        background-color: lightgrey;
+        border: 1px solid lightgrey;   
+       font-weight: 700;
+       font-size: 2rem;
+    }
+    .heading{
+        margin-top: 2.5rem;
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .dashboard button{
+        width:16rem;
+        height: 6rem;
+        padding: 1rem;
+    }
+    .btn-ar,.btn-bur,.btn-ot,.btn-th,.btn-sh{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+}

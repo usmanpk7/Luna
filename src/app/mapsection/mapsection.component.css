@@ -1,0 +1,209 @@
+
+.parent{
+    
+    display: flex;
+    /* flex-direction: column; */
+    display: block;
+    border: 2px solid #FAFAFAFA;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-left: .1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+.btns{
+    display: flex;
+    justify-content: start;
+    gap: .8rem;
+}
+.live{
+    color: white;
+    width: 50%;
+    height: 4rem;
+    background-color: rgb(97, 97, 207);
+    font-size: 1.5rem;
+    border: 1px solid rgb(97, 97, 207);
+    border-radius: 4px;
+}
+.filter{
+    border-radius: 4px;
+    color:rgb(172, 26, 26);
+    width: 50%;
+    height: 4rem;
+    background-color: rgb(196, 116, 116);
+    font-size: 1.5rem;
+    border: 1px solid rgb(196, 116, 116);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.select-text, .scroll{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+.dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .dot-6, .dot-7, .dot-8, .dot-9, .dot-10,
+.dot-11, .dot-12{
+    display: flex;
+    align-items: center;
+}
+.pink-dot{
+    display: flex;
+    border-radius: 50%;
+    background-color: brown;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.yellow-dot{
+    display: flex;
+    border-radius: 50%;
+    background-color: yellow;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.blue-dot{
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(100, 100, 187);
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.text-bul{
+    font-size: 1.5rem;
+}
+
+
+.child{
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.gis{
+    
+    text-transform: uppercase;
+    color: red;
+    border-bottom: 4px solid red;
+    padding-bottom: 2rem;
+    width: 5rem;
+    height: .1rem;
+    font-size: 1.5rem;
+   
+}
+.google{
+    margin-bottom: .6rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: red;
+    border-bottom: 4px solid red;
+    width: 12rem;
+    height: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.sat{
+    display: flex;
+    gap: 1rem;
+}
+.switch-image{
+    width: 4rem;
+    height: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+.satellite{
+    color: purple;
+    font-size: 1.7rem;
+    align-self: center;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.map-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 10rem;
+}
+.map-text{
+    justify-self: end;
+    align-self: center;
+    font-size: 1.7rem;
+    
+}
+.map-image{
+    width: 100%;
+    margin-top: 1rem;
+    height: 60vh;
+}
+.on-image{
+    width: 4rem;
+    height: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
+@media(max-width:720px){
+    
+    .parent{
+        margin-top: 2rem;
+        width: 220%;
+    }
+    .live, .filter{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .select-text, .scroll{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+    .text-bul{
+        
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .dot-6, .dot-7, .dot-8, .dot-9, .dot-10,
+.dot-11, .dot-12{
+    display: flex;
+    border-radius: 50%;
+    background-color: brown;
+    height: 1rem;
+    width: 1rem;
+    gap: 1rem;
+    align-items: center;
+
+}
+.dots{
+    gap:4.8rem;
+}
+
+.gis{
+    padding-bottom: 3rem;
+    width: 6rem;
+    height: .1rem;
+    font-size: 2rem;   
+}
+.google{
+    padding-bottom: 3rem;
+    width: 17rem;
+    height: .1rem;
+    font-size: 2rem;
+}
+.map-image{
+    width: 100%;
+    margin-top: 1rem;
+    height: 120vh;
+}
+
+}
