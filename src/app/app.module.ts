@@ -12,6 +12,7 @@ import { CriminalactivityComponent } from './criminalactivity/criminalactivity.c
 import { InterrogationsectionComponent } from './interrogationsection/interrogationsection.component';
 import { ExibitsectionComponent } from './exibitsection/exibitsection.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
+import { OfficersOnPatrolComponent } from './officers-on-patrol/officers-on-patrol.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SearchbarComponent } from './searchbar/searchbar.component';
     CriminalactivityComponent,
     InterrogationsectionComponent,
     ExibitsectionComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    OfficersOnPatrolComponent
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,23 @@
-.heading{
+
+.header{
     display: flex;
-    justify-content: center;
     color: rgb(235, 85, 85);
     border-bottom: 3px solid rgb(235, 85, 85);
-    margin-top: 2rem;
+    justify-content: center;
+   align-items: center;
+   width: 100%;
+  }
+  .heading{
+    display: flex;
+    margin-top: 1rem;   
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+ .icon-after-headings{
+  width: 2rem;
+  height: 2rem;
+  margin-left: .5rem;
+  align-self: center;
 }
 
 .dashboard{
@@ -163,6 +177,7 @@
         justify-content: center;
         border-radius: 5px;
     }
+    
     .crime{
         width: 18rem;
         height: 3rem;
@@ -185,7 +200,7 @@
         justify-content: start;
         margin-left: 1rem;
         gap: 4rem;
-        
+        margin-bottom: 2rem;
     }
     .b1{
         width: 13rem;
@@ -204,8 +219,8 @@
        font-size: 2rem;
     }
     .heading{
-        margin-top: 2.5rem;
-        font-size: 4rem;
+        margin-top: 1.2rem;
+        font-size: 3rem;
         font-weight: 700;
         text-transform: uppercase;
     }
@@ -219,4 +234,8 @@
         font-size: 1.7rem;
         font-weight: 600;
     }
+    .icon-after-headings{
+        width: 2.6rem;
+        height: 2.6rem;
+      }
 }

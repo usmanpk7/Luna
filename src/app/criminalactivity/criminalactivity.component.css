@@ -11,12 +11,23 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-.heading{
+.header{
     display: flex;
-    justify-content: center;
     color: rgb(235, 85, 85);
     border-bottom: 3px solid rgb(235, 85, 85);
-    margin-top: 2rem;   
+    justify-content: center;
+    align-items: center;
+  }
+  .heading{
+    display: flex;
+    margin-top: 1rem;   
+    text-transform: uppercase;
+}
+ .icon-after-headings{
+  width: 2rem;
+  height: 2rem;
+  margin-left: .5rem;
+  align-self: center;
 }
 
 
@@ -223,5 +234,9 @@ input{
     align-items: center;
     justify-content: center;
     font-weight: 600; 
+  }
+  .icon-after-headings{
+    width: 2.6rem;
+    height: 2.6rem;
   }
 }

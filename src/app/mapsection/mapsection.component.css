@@ -168,8 +168,7 @@
         margin-top: 1rem;
         font-weight: 700;
     }
-    .text-bul{
-        
+    .text-bul{ 
         font-size: 1.5rem;
         font-weight: 700;
     }
@@ -180,9 +179,9 @@
     background-color: brown;
     height: 1rem;
     width: 1rem;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
-
+    margin-right: 2.5rem;
 }
 .dots{
     gap:4.8rem;
