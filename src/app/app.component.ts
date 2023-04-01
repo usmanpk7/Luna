@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Compo';
-  showSidebar: boolean = false;
-  showSidebar: boolean = false;
-  showSidebar: boolean = false;
-  showSidebar: boolean = false;
+  showSidebar: boolean = true;
 }
